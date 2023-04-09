@@ -1,0 +1,156 @@
+.resume-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 5rem; */
+  height: 100vh;
+}
+.resume-left-right-div {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.resume-verical-line {
+  width: 2px;
+  height: 100%;
+  background-color: #222;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* ############################# Left Resume */
+.left-resume {
+  width: 30%;
+  height: 100%;
+}
+.left-resume-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  padding: 0 2rem;
+}
+.left-resume-main-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.5rem;
+  cursor: pointer;
+}
+.left-resume-main-child:hover {
+  background-color: #222;
+  color: #fff;
+}
+.resume-icon {
+  font-size: 2.6rem;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 5px;
+}
+.left-resume-text p {
+  font-size: 1.6rem;
+  padding-right: 5px;
+  text-align: right;
+}
+
+/* ############################## Right Resume */
+.right-resume-main {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.right-resume-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-resume-text {
+  display: flex;
+}
+.right-resume-text p {
+  font-size: 1.6rem;
+}
+.edu-year-btn {
+  border-radius: 50px;
+  padding: 5px 10px;
+  background-color: rgb(243, 77, 1);
+  color: #fff;
+  border: none;
+}
+.organization-name {
+  color: rgb(243, 77, 1);
+  font-weight: 700;
+}
+
+@media (max-width: 770px) {
+  .resume-main-div {
+    height: 110vh;
+  }
+  .resume-left-right-div {
+    flex-direction: column;
+    height: 80%;
+  }
+  .resume-icon {
+    padding: 10px 5px;
+  }
+  .resume-verical-line {
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+  }
+  .left-resume {
+    width: 100%;
+    height: 40%;
+  }
+  .right-resume-main {
+    width: 100%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .resume-main-div {
+    height: 130vh;
+  }
+  .right-resume-text {
+    flex-direction: column;
+  }
+  .right-resume-child {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .left-resume {
+    height: 30%;
+  }
+  .right-resume-main {
+    height: 70%;
+  }
+}
+@media (max-width: 330px) {
+  .resume-main-div {
+    height: 155vh;
+  }
+  .left-resume {
+    height: 25%;
+  }
+  .right-resume-main {
+    height: 75%;
+  }
+}
+@media (max-width: 265px) {
+  .resume-main-div {
+    height: 175vh;
+  }
+  .left-resume {
+    height: 20%;
+  }
+  .right-resume-main {
+    height: 80%;
+  }
+}
