@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resumeapp/static/css/main.6b1b08d4.css",
+    "main.js": "/resumeapp/static/js/main.7fde9c9d.js",
+    "static/media/gautala2.jpg": "/resumeapp/static/media/gautala2.df45e2340dd2c3449e06.jpg",
+    "static/media/pmresume.pdf": "/resumeapp/static/media/pmresume.0c6b25142af7dc7a3021.pdf",
+    "index.html": "/resumeapp/index.html",
+    "main.6b1b08d4.css.map": "/resumeapp/static/css/main.6b1b08d4.css.map",
+    "main.7fde9c9d.js.map": "/resumeapp/static/js/main.7fde9c9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b1b08d4.css",
+    "static/js/main.7fde9c9d.js"
+  ]
+}
