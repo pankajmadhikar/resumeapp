@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import pmResume from "../assets/pmresume.pdf";
+import pmResume from "../assets/Full-stackDeveloper.pdf";
 
 const SelfInfo = () => {
   return (
@@ -53,8 +53,11 @@ const SelfInfo = () => {
 
         <p>knock of building applications with front and back end operations</p>
         <div className="btn-div">
-          <button className="button-primary button">Hire Me</button>
+          {/* <button className="button-primary button">Hire Me</button> */}
 
+          <a className="button-primary button" href={pmResume}>
+            Hire Me
+          </a>
           <a className="button-secondary button" href={pmResume}>
             Get Resume
           </a>

@@ -3,3 +3,30 @@
   display: flex;
   justify-content: space-between;
 }
+.project_link_style {
+  text-decoration: none;
+  color: black;
+}
+.project_div_single a {
+  border-bottom: 2px solid #fff;
+}
+.project_div_single a:hover {
+  border-bottom: 2px solid rgb(243, 77, 1);
+}
+.project_point {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50px;
+  margin: 5px;
+}
+.project_div_box_single {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.project_div_single {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
